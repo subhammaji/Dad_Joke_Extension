@@ -1,0 +1,39 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    margin: black;
+    margin-inline: 5px;
+}
+
+/* p{
+    height:100px;
+    width: 100px;
+    background-color: lightcyan;
+} */
+
+div{
+    height:100px;
+    width: 100px;
+    background-color: lightcyan;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-delay: 2ms;
+    justify-content: center;
+}
+
+@keyframes animate {
+    0% {background-color: lightcyan;}
+    50% {background-color: greenyellow;}
+    100%{ background-color: aqua;}
+}
+/* 
+.animation{
+    animation-duration: 1ms;
+    animation-iteration-count: infinite;
+    animation-delay: 2ms;
+    animation-direction: right;
+} */
